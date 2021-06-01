@@ -385,6 +385,7 @@ kross 5.82.0-1
 kross-interpreters 21.04.1-1
 kruler 21.04.1-1
 krunner 5.82.0-1
+krusader 2.7.2-4
 kscreen 5.21.5-1
 kscreenlocker 5.21.5-1
 kservice 5.82.0-1
