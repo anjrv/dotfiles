@@ -1,0 +1,11 @@
+google-chrome 91.0.4472.77-1
+nerd-fonts-hack 2.1.0-3
+nvm 0.38.0-2
+pidgin-opensteamworks-git 1.7.r0.gd555b66-1
+postman-bin 8.5.1-2
+purple-discord-git v0.0.r696.414b63b-1
+rstudio-desktop-bin 1.4.1106-1
+stacer 1.1.0-1
+visual-studio-code-bin 1.56.2-1
+yay 10.2.2-4
+ytfzf 1.1.5-1

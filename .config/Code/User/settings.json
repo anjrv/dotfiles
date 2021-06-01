@@ -1,0 +1,49 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro",
+    "files.exclude:": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.eol": "\n",
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [ "d" ],
+            "after": [ "\"", "_", "d" ]
+        },
+        {
+            "before": [ "D" ],
+            "after": [ "\"", "_", "D" ]
+        },
+        {
+            "before": [ "d", "d" ],
+            "after": [ "\"", "_", "d", "d" ]
+        },
+        {
+            "before": [ "x" ],
+            "after": [ "\"", "_", "x" ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [ "d" ],
+            "after": [ "\"", "_", "d" ]
+        },
+        {
+            "before": [ "D" ],
+            "after": [ "\"", "_", "D" ]
+        },
+        {
+            "before": [ "d", "d" ],
+            "after": [ "\"", "_", "d", "d" ]
+        },
+        {
+            "before": [ "x" ],
+            "after": [ "\"", "_", "x" ]
+        },
+    ],
+    "workbench.startupEditor": "newUntitledFile"
+}
