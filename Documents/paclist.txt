@@ -141,6 +141,8 @@ frameworkintegration 5.82.0-1
 freetype2 2.10.4-1
 frei0r-plugins 1.7.0-1
 fribidi 1.0.10-1
+fuse-common 3.10.3-1
+fuse2 2.9.9-4
 fzf 0.27.1-1
 gavl 1.4.0-5
 gawk 5.1.0-1
@@ -898,6 +900,7 @@ npm 7.15.1-1
 npth 1.6-3
 nspr 4.31-1
 nss 3.66-1
+ntfs-3g 2017.3.23-5
 okular 21.04.1-1
 oniguruma 6.9.7.1-1
 openal 1.21.1-1
