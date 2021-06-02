@@ -61,7 +61,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 alias sd='sudo shutdown now'
 alias sr='sudo reboot'
-alias srf='reboot --firmware-setup'
+alias srf='sudo systemctl reboot --firmware-setup'
 alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'

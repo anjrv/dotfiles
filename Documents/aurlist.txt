@@ -8,4 +8,4 @@ rstudio-desktop-bin 1.4.1106-1
 stacer 1.1.0-1
 visual-studio-code-bin 1.56.2-1
 yay 10.2.2-4
-ytfzf 1.1.5-1
+ytfzf 1.1.6-1
