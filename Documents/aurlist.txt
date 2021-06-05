@@ -1,6 +1,7 @@
 google-chrome 91.0.4472.77-1
 mailspring 1.9.1-1
 nerd-fonts-hack 2.1.0-3
+nerd-fonts-jetbrains-mono 2.1.0-3
 nvm 0.38.0-2
 onlyoffice-bin 6.2.0-1
 pidgin-opensteamworks-git 1.7.r0.gd555b66-1

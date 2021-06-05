@@ -1398,6 +1398,7 @@ tidy 5.7.45-1
 tslib 1.22-1
 ttf-carlito 20130920-6
 ttf-dejavu 2.37+18+g9b5d1b2f-3
+ttf-fira-sans 1:4.301-2
 ttf-hack 3.003-3
 ttf-liberation 2.1.4-1
 twolame 0.4.0-2
