@@ -9,6 +9,8 @@ postman-bin 8.5.1-2
 purple-discord-git v0.0.r696.414b63b-1
 rstudio-desktop-bin 1.4.1717-1
 stacer 1.1.0-1
+teams 1.4.00.7556-1
 visual-studio-code-bin 1.56.2-1
 yay 10.2.3-1
 ytfzf 1.1.6-1
+zoom 5.6.6-1
