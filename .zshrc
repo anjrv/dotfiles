@@ -93,6 +93,7 @@ alias v='nvim'
 alias top='bpytop'
 alias yt='ytfzf'
 alias ytd='youtube-dl'
+alias psql='pgcli --less-chatty'
 alias sharescreen='mon2cam -r 1920:1080'
 
 #dotfiles

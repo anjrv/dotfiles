@@ -45,5 +45,13 @@
             "after": [ "\"", "_", "x" ]
         },
     ],
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+    "editor.inlineHints.fontFamily": "'JetBrainsMono Nerd Font Mono'",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1
 }
