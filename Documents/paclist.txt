@@ -53,7 +53,7 @@ bat 0.18.1-1
 biber 1:2.15-2
 binutils 2.36.1-3
 bison 3.7.6-1
-blas 3.9.1-1
+blas 3.9.1-2
 bluedevil 1:5.22.2.1-1
 bluez 5.59-2
 bluez-libs 5.59-2
@@ -166,7 +166,7 @@ gd 2.3.2-4
 gdal 3.3.0-1
 gdb 10.2-2
 gdb-common 10.2-2
-gdbm 1.19-2
+gdbm 1.20-1
 gdk-pixbuf2 2.42.6-1
 geos 3.9.1-1
 gettext 0.21-1
@@ -179,7 +179,7 @@ glib2 2.68.3-1
 glibc 2.33-5
 glibmm 2.66.1-2
 glslang 11.4.0-1
-glu 9.0.1-2
+glu 9.0.2-1
 gmp 6.2.1-1
 gnome-keyring 1:40.0-1
 gnu-free-fonts 20120503-8
@@ -370,7 +370,7 @@ hunspell 1.7.0-3
 hwids 20210613-1
 hwloc 2.4.1-1
 hyphen 2.8.8-3
-iana-etc 20210202-1
+iana-etc 20210624-1
 ibus 1.5.24-1
 icu 69.1-1
 ijs 0.35-3
@@ -583,7 +583,7 @@ kwrited 5.22.2.1-1
 kxmlgui 5.83.0-1
 l-smash 2.14.5-2
 lame 3.100-3
-lapack 3.9.1-1
+lapack 3.9.1-2
 latte-dock 0.9.12-1
 layer-shell-qt 5.22.2.1-1
 lcms2 2.12-1
@@ -900,10 +900,10 @@ libzip 1.7.3-2
 libzmf 0.0.2-10
 licenses 20200427-1
 lilv 0.24.12-1
-linux 5.12.13.arch1-1
+linux 5.12.12.arch1-1
 linux-api-headers 5.12.3-1
 linux-firmware 20210511.7685cf4-1
-linux-headers 5.12.13.arch1-1
+linux-headers 5.12.12.arch1-1
 llvm-libs 12.0.0-2
 lm_sensors 1:3.6.0.r41.g31d1f125-1
 lmdb 0.9.29-1
@@ -1020,7 +1020,7 @@ perl-class-singleton 1.5-4
 perl-clone 0.45-3
 perl-data-compare 1.25-9
 perl-data-dump 1.23-7
-perl-data-optlist 0.110-7
+perl-data-optlist 0.112-1
 perl-data-uniqid 0.12-9
 perl-datetime 1.54-2
 perl-datetime-calendar-julian 0.04-7
@@ -1232,7 +1232,7 @@ python-pyrsistent 0.17.3-3
 python-pytz 2021.1-1
 python-pyzmq 22.0.3-1
 python-requests 2.25.1-1
-python-requests-unixsocket 0.2.0-3
+python-requests-unixsocket 0.2.0-4
 python-resolvelib 0.5.5-1
 python-retrying 1.3.3-9
 python-send2trash 1.5.0-6
@@ -1318,6 +1318,7 @@ qt5-x11extras 5.15.2-1
 qt5-xmlpatterns 5.15.2-1
 qtkeychain-qt5 0.12.0-1
 r 4.1.0-1
+radeontop 1.3-2
 raptor 2.0.15-16
 rasqal 1:0.9.33-4
 rav1e 0.4.1-1

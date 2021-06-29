@@ -16,4 +16,4 @@ v4l2loopback-dc-dkms 1:1.7.3-1
 visual-studio-code-bin 1.57.1-1
 yay 10.2.3-1
 ytfzf 1.1.6-1
-zoom 5.7.0-1
+zoom 5.7.1-1
