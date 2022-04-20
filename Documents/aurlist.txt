@@ -17,8 +17,6 @@ obs-studio-tytan652
 obs-vkcapture-git
 postman-bin
 protonup-qt
-qomui
-rpi-imager
 rstudio-desktop-git
 sddm-git
 stacer
