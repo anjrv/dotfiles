@@ -30,7 +30,6 @@ easyeffects
 efibootmgr
 egl-wayland
 electron
-elisa
 fakeroot
 fd
 file
@@ -58,7 +57,6 @@ gwenview
 gzip
 handbrake
 hddtemp
-helvum
 htop
 imagemagick
 inkscape
@@ -76,7 +74,6 @@ jre17-openjdk
 jupyter-notebook
 jupyterlab
 jupyterlab-widgets
-kamoso
 kate
 kdeconnect
 kdenlive
@@ -142,7 +139,6 @@ packagekit-qt5
 pacman
 patch
 pcsx2
-pdftk
 pinta
 pipewire
 pipewire-alsa

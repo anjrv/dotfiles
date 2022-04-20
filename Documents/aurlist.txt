@@ -9,7 +9,6 @@ jetbrains-toolbox
 lib32-mangohud
 mangohud
 mesa-git
-mon2cam-bash-git
 nerd-fonts-complete
 nohang-git
 nvm
@@ -21,7 +20,6 @@ rstudio-desktop-git
 sddm-git
 stacer
 stremio
-svgo
 timeshift
 visual-studio-code-bin
 vlc-luajit
