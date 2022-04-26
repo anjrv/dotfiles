@@ -30,7 +30,6 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
-{77357fb1-4d5d-423e-b28a-627feb47f4e1}=none,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
 [kitty.desktop]
@@ -259,6 +258,12 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
+
+[org.kde.konsole.desktop]
+NewTab=none,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Konsole
+_launch=none,none,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents

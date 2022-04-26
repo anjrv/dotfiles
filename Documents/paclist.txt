@@ -30,6 +30,7 @@ easyeffects
 efibootmgr
 egl-wayland
 electron
+elisa
 fakeroot
 fd
 file
@@ -39,6 +40,7 @@ firefox
 firewalld
 flatpak
 flex
+gamemode
 gamescope
 gawk
 gcc
@@ -74,6 +76,7 @@ jre17-openjdk
 jupyter-notebook
 jupyterlab
 jupyterlab-widgets
+kalendar
 kate
 kdeconnect
 kdenlive
@@ -85,6 +88,7 @@ kotlin
 krita
 ksysguard
 latte-dock
+lib32-gamemode
 lib32-giflib
 lib32-gnutls
 lib32-gst-plugins-base-libs
@@ -114,7 +118,6 @@ linux-firmware
 linux-headers
 lsd
 lsp-plugins-docs
-lutris
 m4
 make
 man-db
@@ -148,6 +151,7 @@ pkgconf
 plasma-meta
 plasma-wayland-session
 postgresql
+postgresql-old-upgrade
 psensor
 pypy
 pypy3
@@ -198,6 +202,7 @@ tldr
 tmux
 trash-cli
 tree
+umbrello
 unrar
 vde2
 vi

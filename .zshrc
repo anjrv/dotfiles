@@ -1,42 +1,12 @@
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
 # ENABLE_CORRECTION="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="dd/mm/yyyy"
-# ZSH_THEME=""
-# PS1='[\W]\$ '
 PS4='[\W]\$ '
 plugins=(zsh-syntax-highlighting zsh-autosuggestions)
 
 export LANG=en_US.UTF-8
 export PAGER=less
 export ZSH="/home/anjrv/.oh-my-zsh"
-
 export TERM=xterm-256color
 export TerminalEmulator=kitty
 export BROWSER=/usr/bin/firefox
@@ -58,11 +28,6 @@ fi
 
 if [ -d "$HOME/.local/bin" ];
   then PATH="$HOME/.local/bin:$PATH"
-fi
-
-IDF_PATH="$HOME/esp/esp-idf"
-if [ -d "$IDF_PATH/tools" ];
-  then PATH="$IDF_PATH/tools:$PATH"
 fi
 
 GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
@@ -120,6 +85,7 @@ alias aurlist='pacman -Qqem > ~/Documents/aurlist.txt'
 
 #ssh
 alias ssh-krafla='ssh jaj20@krafla.rhi.hi.is'
+alias ssh-pi-local='ssh radikamari@192.168.1.6'
 
 # usage: ex <file>
 ex ()
