@@ -17,7 +17,7 @@ obs-vkcapture-git
 onlyoffice-bin
 postman-bin
 protonup-qt
-rstudio-desktop-git
+rstudio-desktop-bin
 sddm-git
 stacer
 stremio
@@ -26,4 +26,3 @@ ttf-ms-fonts
 visual-studio-code-bin
 vlc-luajit
 yay-git
-ytfzf

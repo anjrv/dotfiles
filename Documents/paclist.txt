@@ -1,3 +1,6 @@
+adobe-source-sans-fonts
+amf-headers
+ant
 apparmor
 ardour
 ark
@@ -10,9 +13,12 @@ binutils
 bison
 blender
 bluez-utils
+boost
 bpytop
 bridge-utils
+ccache
 ccls
+celt
 cheese
 cmake
 cups
@@ -31,6 +37,7 @@ efibootmgr
 egl-wayland
 electron
 elisa
+extra-cmake-modules
 fakeroot
 fd
 file
@@ -40,6 +47,7 @@ firefox
 firewalld
 flatpak
 flex
+fwupd
 gamemode
 gamescope
 gawk
@@ -49,6 +57,7 @@ gettext
 gimp
 git
 gnome-keyring
+go
 gparted
 gperf
 gradle
@@ -70,6 +79,7 @@ java-openjfx
 java11-openjfx
 jdk-openjdk
 jdk11-openjdk
+jq
 jre-openjdk
 jre11-openjdk
 jre17-openjdk
@@ -140,6 +150,8 @@ openssh
 openvr
 packagekit-qt5
 pacman
+pandoc
+pandoc-crossref
 patch
 pcsx2
 pinta
@@ -230,6 +242,8 @@ xorg-font-util
 xorg-server
 xorg-xinit
 xorg-xwininfo
+yad
+yarn
 zam-plugins
 zita-at1
 zita-dpl1
