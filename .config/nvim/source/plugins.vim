@@ -6,16 +6,11 @@ endif
 
 call plug#begin('~/.config/nvim/bundle')
   Plug 'easymotion/vim-easymotion'
-  " Plug 'neoclide/coc.nvim'
-  " Plug 'Valloric/YouCompleteMe', { 'do' : 'python3 install.py --all' }
   Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
-  Plug 'junegunn/fzf'
   Plug 'dracula/vim'
-  " Plug 'vim-airline/vim-airline'
-  " Plug 'vim-airline/vim-airline-themes'
   Plug 'itchyny/lightline.vim'
   Plug 'vimwiki/vimwiki'
   Plug 'lervag/vimtex'

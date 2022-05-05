@@ -1,30 +1,53 @@
 source ~/.config/nvim/source/plugins.vim
 source ~/.config/nvim/source/binds.vim
 source ~/.config/nvim/source/appearance.vim
-" source ~/.config/nvim/source/coc.vim
-" source ~/.config/nvim/source/ycm.vim
 source ~/.config/nvim/source/lang.vim
 
 filetype plugin indent on
 
-" Use system clipboard
 set clipboard+=unnamedplus
 set encoding=utf-8
 set hidden
-set nobackup
 set nowritebackup
+set noerrorbells
 set nocompatible
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set cmdheight=1
+set noshowmode
+set number relativenumber
+set signcolumn=yes
+set colorcolumn=80
+set nu rnu
+set wrap
+set confirm
+set ruler
+set scl=no
+set shortmess+=c
+set pumheight=5
+set showmatch
+syntax on
 
 " Tabs
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
-set smarttab
-set autoindent
+set smartindent
 
-" No editing swap file
-set noswapfile
+" Search options
+set wildmenu
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set nohlsearch
+
+" History
+set history=100
+set undolevels=1000
 
 " Whether mouse is enabled
 set mouse=a
@@ -33,24 +56,14 @@ set mouse=a
 autocmd BufWritePre * %s/\s\+$//e
 
 " Movement
-autocmd InsertEnter * norm zz
+" autocmd InsertEnter * norm zz
+set scrolloff=8
 
 " Faster update time
-set updatetime=300
+set updatetime=750
 
 " Backspace beyond insert
 set backspace=indent,eol,start
-
-" Search options
-set wildmenu
-set incsearch
-set hlsearch
-set ignorecase
-set smartcase
-
-" History
-set history=100
-set undolevels=1000
 
 " Latex editing stuff
 let g:vimtex_view_method = 'mupdf'

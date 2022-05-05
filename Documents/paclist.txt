@@ -2,6 +2,7 @@ adobe-source-sans-fonts
 amf-headers
 ant
 apparmor
+appmenu-gtk-module
 ardour
 ark
 autoconf
@@ -154,6 +155,7 @@ pandoc
 pandoc-crossref
 patch
 pcsx2
+perf
 pinta
 pipewire
 pipewire-alsa

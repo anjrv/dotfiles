@@ -1,4 +1,4 @@
-let mapleader = ","
+let mapleader = " "
 
 " Replace d cut with delete
 nnoremap x "_x

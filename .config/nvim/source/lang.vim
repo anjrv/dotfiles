@@ -8,3 +8,4 @@ let g:LanguageClient_serverCommands = {
     \ }
 
 nmap <F5> <Plug>(lcn-menu)
+
