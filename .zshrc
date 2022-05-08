@@ -71,7 +71,7 @@ alias jctl="journalctl -p 3 -xb"
 
 #stuff
 alias v='nvim'
-alias top='bpytop'
+alias top='btop'
 alias ytd='youtube-dl'
 alias how='cht.sh'
 alias pg='pgcli --less-chatty'

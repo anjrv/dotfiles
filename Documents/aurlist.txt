@@ -7,7 +7,6 @@ jdtls
 jetbrains-toolbox
 lib32-mangohud
 mangohud
-mesa-git
 nerd-fonts-complete
 nohang-git
 nvm

@@ -15,8 +15,8 @@ bison
 blender
 bluez-utils
 boost
-bpytop
 bridge-utils
+btop
 ccache
 ccls
 celt
@@ -110,6 +110,7 @@ lib32-libxcomposite
 lib32-libxinerama
 lib32-libxslt
 lib32-mesa
+lib32-mesa-vdpau
 lib32-mpg123
 lib32-ocl-icd
 lib32-openal
@@ -135,6 +136,8 @@ make
 man-db
 man-pages
 maven
+mesa
+mesa-vdpau
 mlocate
 mupdf
 nano
@@ -225,6 +228,7 @@ vi
 vim
 virt-manager
 virt-viewer
+vulkan-radeon
 wf-recorder
 wget
 which
