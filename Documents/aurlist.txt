@@ -6,7 +6,6 @@ javafx-scenebuilder
 jdtls
 jetbrains-toolbox
 lib32-mangohud
-lutris-git
 mangohud
 mesa-git
 nerd-fonts-complete
@@ -14,8 +13,6 @@ nohang-git
 nvm
 obs-studio-tytan652
 obs-vkcapture-git
-onlyoffice-bin
-postman-bin
 protonup-qt
 rstudio-desktop-bin
 sddm-git
@@ -23,6 +20,7 @@ stacer
 stremio
 timeshift
 ttf-ms-fonts
+via-bin
 visual-studio-code-bin
 vlc-luajit
 yay-git

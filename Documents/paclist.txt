@@ -129,6 +129,7 @@ linux-firmware
 linux-headers
 lsd
 lsp-plugins-docs
+lutris
 m4
 make
 man-db
@@ -218,6 +219,7 @@ trash-cli
 tree
 umbrello
 unrar
+vamp-plugin-sdk
 vde2
 vi
 vim
