@@ -8,7 +8,6 @@ call plug#begin('~/.config/nvim/bundle')
   Plug 'easymotion/vim-easymotion'
   Plug 'neovim/nvim-lspconfig'
   Plug 'glepnir/lspsaga.nvim'
-  Plug 'mfussenegger/nvim-jdtls'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'

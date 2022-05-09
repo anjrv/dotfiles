@@ -13,7 +13,7 @@ export BROWSER=/usr/bin/firefox
 export MOZ_ENABLE_WAYLAND=1
 export SDL_VIDEODRIVER=wayland
 export QT_QPA_PLATFORM=wayland
-export JDTLS_HOME=/usr/bin/jdtls
+export JAVA_HOME=/usr/bin/java
 
 source $ZSH/oh-my-zsh.sh
 
@@ -74,7 +74,6 @@ alias jctl="journalctl -p 3 -xb"
 alias v='nvim'
 alias top='btop'
 alias ytd='youtube-dl'
-alias how='cht.sh'
 alias pg='pgcli --less-chatty'
 alias reload='kquitapp5 plasmashell && kstart5 plasmashell'
 alias chrome-unsafe='google-chrome-stable --disable-web-security --user-data-dir="/home/anjrv/Projects/chrome_trash"'
