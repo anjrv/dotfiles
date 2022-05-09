@@ -13,6 +13,7 @@ export BROWSER=/usr/bin/firefox
 export MOZ_ENABLE_WAYLAND=1
 export SDL_VIDEODRIVER=wayland
 export QT_QPA_PLATFORM=wayland
+export JDTLS_HOME=/usr/bin/jdtls
 
 source $ZSH/oh-my-zsh.sh
 

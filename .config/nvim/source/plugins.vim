@@ -6,10 +6,13 @@ endif
 
 call plug#begin('~/.config/nvim/bundle')
   Plug 'easymotion/vim-easymotion'
-  Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'next',
-    \ 'do': 'bash install.sh',
-    \ }
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'glepnir/lspsaga.nvim'
+  Plug 'mfussenegger/nvim-jdtls'
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'nvim-lua/popup.nvim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
   Plug 'dracula/vim'
   Plug 'itchyny/lightline.vim'
   Plug 'vimwiki/vimwiki'

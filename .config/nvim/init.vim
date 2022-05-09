@@ -10,7 +10,6 @@ set encoding=utf-8
 set hidden
 set nowritebackup
 set noerrorbells
-set nocompatible
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
