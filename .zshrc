@@ -4,17 +4,6 @@ HIST_STAMPS="dd/mm/yyyy"
 PS4='[\W]\$ '
 plugins=(zsh-syntax-highlighting zsh-autosuggestions)
 
-export LANG=en_US.UTF-8
-export PAGER=less
-export ZSH="/home/anjrv/.oh-my-zsh"
-export TERM=xterm-256color
-export TerminalEmulator=kitty
-export BROWSER=/usr/bin/firefox
-export MOZ_ENABLE_WAYLAND=1
-export SDL_VIDEODRIVER=wayland
-export QT_QPA_PLATFORM=wayland
-export JAVA_HOME=/usr/bin/java
-
 source $ZSH/oh-my-zsh.sh
 
 if [[ -n $SSH_CONNECTION ]]; then

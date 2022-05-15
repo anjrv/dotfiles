@@ -16,7 +16,6 @@ protonup-qt
 rstudio-desktop-bin
 sddm-git
 stacer
-stremio
 timeshift
 ttf-ms-fonts
 via-bin

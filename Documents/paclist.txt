@@ -57,6 +57,7 @@ gcc-fortran
 gettext
 gimp
 git
+glow
 gnome-keyring
 go
 gparted
@@ -92,6 +93,7 @@ kate
 kdeconnect
 kdenlive
 kdialog
+kinit
 kitty
 kolourpaint
 konsole
@@ -139,6 +141,7 @@ maven
 mesa
 mesa-vdpau
 mlocate
+mpv
 mupdf
 nano
 ncdu
@@ -180,7 +183,7 @@ python-pip
 python-pyqt5
 python2
 qbittorrent
-qemu
+qemu-desktop
 qmk
 qpwgraph
 r
@@ -191,6 +194,7 @@ ripgrep
 rlwrap
 rsync
 ruby
+rust-analyzer
 rustup
 samba
 sed

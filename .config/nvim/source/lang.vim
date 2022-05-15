@@ -1,7 +1,7 @@
 lua << EOF
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
-  ensure_installed = { "c", "cpp", "java", "rust", "tsx", "html", "scss", "javascript" },
+  ensure_installed = { 'c', 'cpp', 'java', 'rust', 'tsx', 'html', 'scss', 'javascript', 'c_sharp', 'go', 'python' },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
@@ -63,12 +63,11 @@ end
 
 -- Use a loop to conveniently call 'setup' on multiple servers and
 -- map buffer local keybindings when the language server attaches
-local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'ccls', 'cssls' }
+local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'ccls', 'cssls', 'csharp_ls', 'gopls' }
 for _, lsp in pairs(servers) do
   require('lspconfig')[lsp].setup {
     on_attach = on_attach,
     flags = {
-      -- This will be the default in neovim 0.7+
       debounce_text_changes = 150,
     }
   }
