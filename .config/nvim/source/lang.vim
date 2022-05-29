@@ -76,8 +76,8 @@ capabilities.textDocument.completion.completionItem.resolveSupport = {
 local servers = { 'pyright', 'rust_analyzer', 'tsserver', 'ccls', 'cssls', 'csharp_ls', 'gopls' }
 for _, lsp in pairs(servers) do
   require('lspconfig')[lsp].setup {
-    capabilities = capabilities,
     on_attach = on_attach,
+    capabilities = capabilities,
     flags = {
       debounce_text_changes = 150,
     }
@@ -87,6 +87,7 @@ end
 require'lspconfig'.jdtls.setup {
     cmd = { 'jdtls' },
     on_attach = on_attach,
+    capabilities = capabilities,
     flags = {
       -- This will be the default in neovim 0.7+
       debounce_text_changes = 150,
@@ -132,8 +133,8 @@ require'compe'.setup {
     nvim_lsp = true;
     nvim_lua = true;
     vsnip = true;
-    ultisnips = true;
-    luasnip = true;
+    -- ultisnips = true;
+    -- luasnip = true;
   };
 }
 EOF
