@@ -30,6 +30,7 @@ alias update='yay && flatpak update && omz update'
 
 # This thing is absurdly slow, only source when needed
 alias nvm-init='source '/usr/share/nvm/init-nvm.sh''
+alias conda-init='source '/home/anjrv/.local/share/anaconda3/conda-setup''
 
 alias sd='sudo shutdown -h now'
 alias firmware='sudo systemctl reboot --firmware-setup'
@@ -102,3 +103,4 @@ ex ()
 }
 
 eval "$(starship init zsh)"
+

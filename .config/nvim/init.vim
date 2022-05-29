@@ -29,6 +29,8 @@ set pumheight=5
 set showmatch
 syntax on
 
+set completeopt=menuone,noselect
+
 " Tabs
 set tabstop=4
 set softtabstop=4

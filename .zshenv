@@ -2,6 +2,11 @@ export LANG=en_US.UTF-8
 
 export ZSH="/home/anjrv/.oh-my-zsh"
 
+export XDG_CONFIG_HOME="/home/anjrv/.config"
+export XDG_CACHE_HOME="/home/anjrv/.local/cache"
+export XDG_DATA_HOME="/home/anjrv/.local/share"
+export XDG_STATE_HOME="/home/anjrv/.local/state"
+
 export TERM=xterm-256color
 export PAGER=less
 export TerminalEmulator=kitty

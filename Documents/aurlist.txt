@@ -12,6 +12,7 @@ nohang-git
 nvm
 obs-studio-tytan652
 obs-vkcapture-git
+parsec-bin
 protonup-qt
 rstudio-desktop-bin
 sddm-git

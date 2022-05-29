@@ -5,6 +5,7 @@ apparmor
 appmenu-gtk-module
 ardour
 ark
+audacity
 autoconf
 automake
 base
@@ -49,6 +50,7 @@ firewalld
 flatpak
 flex
 fwupd
+fzf
 gamemode
 gamescope
 gawk
@@ -70,6 +72,7 @@ gwenview
 gzip
 handbrake
 hddtemp
+helvum
 htop
 imagemagick
 inkscape
@@ -88,7 +91,6 @@ jre17-openjdk
 jupyter-notebook
 jupyterlab
 jupyterlab-widgets
-kalendar
 kate
 kdeconnect
 kdenlive
@@ -137,10 +139,12 @@ m4
 make
 man-db
 man-pages
+mariadb-libs
 maven
 mesa
 mesa-vdpau
 mlocate
+mosquitto
 mpv
 mupdf
 nano
@@ -246,6 +250,7 @@ wireless_tools
 wireplumber
 wl-clipboard
 xclip
+xdg-desktop-portal-gtk
 xdg-utils
 xdotool
 xf86-video-amdgpu
