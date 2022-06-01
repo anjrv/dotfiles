@@ -5,7 +5,7 @@ export XDG_CACHE_HOME="/home/anjrv/.local/cache"
 export XDG_DATA_HOME="/home/anjrv/.local/share"
 export XDG_STATE_HOME="/home/anjrv/.local/state"
 
-export TERM=xterm-256color
+# export TERM=xterm-256color
 export PAGER=less
 export TerminalEmulator=kitty
 export BROWSER=/usr/bin/firefox
