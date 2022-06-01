@@ -1,4 +1,5 @@
 export ZDOTDIR=$HOME/.config/zsh
+SAVEHIST=1000
 HISTFILE=~/.zsh_history
 setopt appendhistory
 
