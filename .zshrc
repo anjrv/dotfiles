@@ -1,8 +1,8 @@
 export ZDOTDIR=$HOME/.config/zsh
-SAVEHIST=10000
+SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
-setopt appendhistory
+setopt inc_append_history share_history
 setopt autocd extendedglob nomatch menucomplete
 setopt interactive_comments
 
