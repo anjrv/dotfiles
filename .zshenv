@@ -13,4 +13,4 @@ export MOZ_ENABLE_WAYLAND=1
 export SDL_VIDEODRIVER=wayland
 # export QT_QPA_PLATFORM=wayland
 
-export JAVA_HOME=/usr/bin/java
+export JAVA_HOME=/usr/lib/jvm/default

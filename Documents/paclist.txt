@@ -1,5 +1,6 @@
 adobe-source-sans-fonts
 amf-headers
+android-tools
 ant
 apparmor
 appmenu-gtk-module
@@ -98,11 +99,15 @@ kdialog
 kinit
 kitty
 kolourpaint
+kompare
 konsole
 kotlin
+krename
 krita
+krusader
 ksysguard
 latte-dock
+lazygit
 lib32-gamemode
 lib32-giflib
 lib32-gnutls
@@ -135,6 +140,7 @@ linux-headers
 lsd
 lsp-plugins-docs
 lutris
+lynis
 m4
 make
 man-db
@@ -145,6 +151,7 @@ mesa
 mesa-vdpau
 mlocate
 mosquitto
+mplayer
 mpv
 mupdf
 nano
@@ -208,6 +215,7 @@ speedtest-cli
 starship
 steam
 sudo
+sweeper
 sysstat
 texinfo
 texlive-bibtexextra
@@ -257,6 +265,7 @@ xf86-video-amdgpu
 xf86-video-ati
 xorg-font-util
 xorg-server
+xorg-xhost
 xorg-xinit
 xorg-xwininfo
 yad

@@ -3,7 +3,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-setopt appendhistory
+setopt append_history
 setopt autocd extendedglob nomatch menucomplete
 setopt interactive_comments
 

@@ -14,10 +14,10 @@ obs-studio-tytan652
 obs-vkcapture-git
 parsec-bin
 protonup-qt
+rpi-imager
 rstudio-desktop-bin
 sddm-git
 stacer
-timeshift
 ttf-ms-fonts
 via-bin
 visual-studio-code-bin
