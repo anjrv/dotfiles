@@ -4,6 +4,7 @@ android-tools
 ant
 apparmor
 appmenu-gtk-module
+arch-audit
 ardour
 ark
 audacity
@@ -48,6 +49,7 @@ filezilla
 findutils
 firefox
 firewalld
+flake8
 flatpak
 flex
 fwupd
@@ -132,13 +134,17 @@ libappindicator-gtk3
 libguestfs
 libpipewire02
 libpulse
+libratbag
 libreoffice-fresh
 libtool
+libva-mesa-driver
 linux
 linux-firmware
 linux-headers
 lsd
 lsp-plugins-docs
+lua-language-server
+luarocks
 lutris
 lynis
 m4
@@ -174,7 +180,9 @@ pandoc-crossref
 patch
 pcsx2
 perf
+php
 pinta
+piper
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -184,6 +192,7 @@ plasma-meta
 plasma-wayland-session
 postgresql
 postgresql-old-upgrade
+prettier
 psensor
 pypy
 pypy3
@@ -202,6 +211,7 @@ ranger
 realtime-privileges
 reflector
 ripgrep
+rkhunter
 rlwrap
 rsync
 ruby
@@ -209,11 +219,14 @@ rust-analyzer
 rustup
 samba
 sed
+shellcheck
 smartmontools
 spectacle
 speedtest-cli
+sshfs
 starship
 steam
+stylua
 sudo
 sweeper
 sysstat
