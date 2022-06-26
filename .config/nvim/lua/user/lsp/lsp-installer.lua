@@ -5,6 +5,7 @@ end
 
 local servers = {
   "jdtls",
+  "gopls",
   "rust_analyzer",
   "clangd",
   "r_language_server",
