@@ -6,15 +6,17 @@ end
 local servers = {
   "jdtls",
   "rust_analyzer",
-  -- "ccls",
   "clangd",
-  "cssls",
-  "html",
-  "tsserver",
+  "r_language_server",
   "pyright",
+  "csharp_ls",
+  "html",
+  "cssls",
+  "tsserver",
   "bashls",
   "jsonls",
   "yamlls",
+  "sumneko_lua",
 }
 
 lsp_installer.setup()

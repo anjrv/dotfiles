@@ -75,6 +75,7 @@ gwenview
 gzip
 handbrake
 hddtemp
+hdparm
 helvum
 htop
 imagemagick
@@ -108,6 +109,7 @@ krename
 krita
 krusader
 ksysguard
+kvantum
 latte-dock
 lazygit
 lib32-gamemode
@@ -221,6 +223,7 @@ samba
 sed
 shellcheck
 smartmontools
+sndio
 spectacle
 speedtest-cli
 sshfs
@@ -278,6 +281,7 @@ xf86-video-amdgpu
 xf86-video-ati
 xorg-font-util
 xorg-server
+xorg-xeyes
 xorg-xhost
 xorg-xinit
 xorg-xwininfo
