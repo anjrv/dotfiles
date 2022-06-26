@@ -88,6 +88,7 @@ local config = {
     workspace_dir,
   },
 
+
   on_attach = require("user.lsp.handlers").on_attach,
   capabilities = require("user.lsp.handlers").capabilities,
 
@@ -112,6 +113,16 @@ local config = {
       },
       configuration = {
         updateBuildConfiguration = "interactive",
+        runtimes = {
+          {
+            name = "JavaSE-11",
+            path = "/usr/lib/jvm/java-11-openjdk/",
+          },
+          {
+            name = "JavaSE-17",
+            path = "/usr/lib/jvm/java-17-openjdk/",
+          },
+        },
       },
       maven = {
         downloadSources = true,
