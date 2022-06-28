@@ -36,6 +36,7 @@ alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pac
 alias orphans="pacman -Qdt"
 alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
 alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
+alias npm-fix-conflicts="sudo pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'"
 
 #debugging
 alias jctl="journalctl -p 3 -xb"

@@ -9,7 +9,9 @@ jdtls
 jetbrains-toolbox
 lib32-mangohud
 mangohud
-nerd-fonts-complete
+mongodb-bin
+mongodb-tools-bin
+nerd-fonts-complete-starship
 nohang-git
 nvm
 obs-studio-tytan652

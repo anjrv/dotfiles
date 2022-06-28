@@ -252,6 +252,7 @@ tldr
 tmux
 trash-cli
 tree
+ttf-iosevka-nerd
 umbrello
 unrar
 vamp-plugin-sdk
