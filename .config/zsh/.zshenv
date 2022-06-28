@@ -1,3 +1,4 @@
+export ZDOTDIR="/home/anjrv/.config/zsh"
 export LANG=en_US.UTF-8
 
 export XDG_CONFIG_HOME="/home/anjrv/.config"
