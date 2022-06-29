@@ -9,8 +9,6 @@ set nowritebackup
 set noerrorbells
 set noswapfile
 set nobackup
-set undodir=~/.vim/undodir
-set undofile
 set cmdheight=1
 set noshowmode
 set number relativenumber
@@ -55,6 +53,7 @@ autocmd BufWritePre * %s/\s\+$//e
 
 " Movement
 set scrolloff=8
+set sidescrolloff=8
 
 " Faster update time
 set updatetime=300
