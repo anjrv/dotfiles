@@ -19,7 +19,7 @@ alias t3="tree -L 3"
 
 alias v="nvim"
 alias g="lazygit"
-alias update="yay && flatpak update"
+alias update="paru && flatpak update"
 alias ytd="youtube-dl"
 alias pg="pgcli --less-chatty"
 alias update-fc="sudo fc-cache -fv"

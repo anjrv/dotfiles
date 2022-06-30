@@ -36,6 +36,8 @@ dolphin
 dosbox
 dotnet-runtime
 dotnet-sdk
+duf
+dust
 easyeffects
 efibootmgr
 egl-wayland
@@ -195,6 +197,7 @@ plasma-wayland-session
 postgresql
 postgresql-old-upgrade
 prettier
+procs
 psensor
 pypy
 pypy3

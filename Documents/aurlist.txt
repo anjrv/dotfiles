@@ -17,6 +17,7 @@ nvm
 obs-studio-tytan652
 obs-vkcapture-git
 parsec-bin
+paru
 protonup-qt
 rpi-imager
 rstudio-desktop-bin
@@ -26,4 +27,3 @@ ttf-ms-fonts
 via-bin
 visual-studio-code-bin
 vlc-luajit
-yay-git
