@@ -10,7 +10,7 @@ alias ..3="cd ../../.."
 
 alias ls="lsd -lh --group-dirs first"
 alias la="lsd -lhA --group-dirs first"
-alias cat="bat"
+alias cat="bat --theme=Dracula"
 alias top="btop"
 alias grep="rg --color=auto"
 
@@ -18,7 +18,6 @@ alias t2="tree -L 2"
 alias t3="tree -L 3"
 
 alias v="nvim"
-alias g="lazygit"
 alias update="paru && flatpak update"
 alias ytd="youtube-dl"
 alias pg="pgcli --less-chatty"
@@ -27,6 +26,13 @@ alias reload="kquitapp5 plasmashell && kstart5 plasmashell"
 alias chrome-unsafe="google-chrome-stable --disable-web-security --user-data-dir="/home/anjrv/Projects/chrome_trash""
 alias firmware="sudo systemctl reboot --firmware-setup"
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
+
+#git
+alias g="lazygit"
+alias gd="git diff --color | diff-so-fancy" 
+alias gps="git push"
+alias gpl="git pull"
+alias gcm="git commit -m"
 
 #pacman related
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
