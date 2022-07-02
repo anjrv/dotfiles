@@ -28,6 +28,7 @@ cmake
 cups
 darktable
 dfu-util
+diff-so-fancy
 discord
 dmidecode
 dnsmasq
@@ -78,6 +79,7 @@ gzip
 handbrake
 hddtemp
 hdparm
+helix
 helvum
 htop
 imagemagick
@@ -160,6 +162,7 @@ maven
 mesa
 mesa-vdpau
 mlocate
+mold
 mosquitto
 mplayer
 mpv
