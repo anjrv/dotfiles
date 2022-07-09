@@ -67,5 +67,5 @@ alias rsync-hv-local="rsync -avzhe ssh edr@192.168.1.13:"
 alias adb-mirror="adb shell screenrecord --bit-rate=16m --output-format=h264 --size 800x600 - | ffplay -framerate 60 -framedrop -bufsize 16M -"
 
 # This thing is absurdly slow, only source when needed
-alias nvm-init="source "/usr/share/nvm/init-nvm.sh""
+alias nvm-init="compinit && source "/usr/share/nvm/init-nvm.sh""
 alias conda-init="source "/home/anjrv/.local/share/anaconda3/conda-setup""
