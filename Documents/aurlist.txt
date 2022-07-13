@@ -23,6 +23,7 @@ rpi-imager
 rstudio-desktop-bin
 sddm-git
 stacer
+thunderbird-bin
 ttf-ms-fonts
 via-bin
 visual-studio-code-bin

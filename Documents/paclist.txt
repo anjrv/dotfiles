@@ -7,6 +7,7 @@ appmenu-gtk-module
 arch-audit
 ardour
 ark
+aspnet-runtime
 audacity
 autoconf
 automake
@@ -252,7 +253,6 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 texlive-science
-thunderbird
 tk
 tldr
 tmux
