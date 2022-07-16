@@ -1,4 +1,5 @@
 cef-minimal-obs-bin
+etcher-bin
 game-devices-udev
 google-chrome
 google-java-format

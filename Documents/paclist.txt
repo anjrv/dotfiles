@@ -227,6 +227,7 @@ ruby
 rust-analyzer
 rustup
 samba
+scrcpy
 sed
 shellcheck
 smartmontools
