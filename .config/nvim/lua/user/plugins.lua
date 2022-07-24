@@ -105,7 +105,6 @@ return packer.startup(function(use)
 	-- DAP
 	use({ "mfussenegger/nvim-dap" }) -- , commit = "014ebd53612cfd42ac8c131e6cec7c194572f21d" })
 	use({ "rcarriga/nvim-dap-ui" }) -- , commit = "d76d6594374fb54abf2d94d6a320f3fd6e9bb2f7" })
-	-- use({ "ravenxrz/DAPInstall.nvim" }) -- , commit = "8798b4c36d33723e7bba6ed6e2c202f84bb300de" })
 
 	-- Pandoc / Markdown
 	use({ "lervag/vimtex" }) -- , commit = "d3c69cb81487a6f532cadab39f86a79cd689e514" })
@@ -114,7 +113,7 @@ return packer.startup(function(use)
 	use({ "conornewton/vim-pandoc-markdown-preview" }) -- , commit = "975328c1da15f15f6fd9f0197725044b6a74de49" })
 
 	-- Active node version needs to be LTS
-	-- use({ "github/copilot.vim" })
+	use({ "github/copilot.vim" })
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

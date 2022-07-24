@@ -1,13 +1,15 @@
 cef-minimal-obs-bin
+celt
 etcher-bin
 game-devices-udev
 google-chrome
 google-java-format
+goverlay-bin
 inxi
 java8-openjfx
 javafx-scenebuilder
-jdtls
 jetbrains-toolbox
+kwin-bismuth-bin
 lib32-mangohud
 mangohud
 mongodb-bin
@@ -20,6 +22,7 @@ obs-vkcapture-git
 parsec-bin
 paru
 protonup-qt
+qtscrcpy
 rpi-imager
 rstudio-desktop-bin
 sddm-git

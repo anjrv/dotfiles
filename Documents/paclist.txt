@@ -23,7 +23,6 @@ bridge-utils
 btop
 ccache
 ccls
-celt
 cheese
 cmake
 cups
@@ -148,6 +147,7 @@ libva-mesa-driver
 linux
 linux-firmware
 linux-headers
+lldb
 lsd
 lsp-plugins-docs
 lua-language-server
@@ -175,7 +175,7 @@ neovim
 net-tools
 networkmanager
 ninja
-nodejs
+nodejs-lts-gallium
 npm
 okular
 openbsd-netcat
@@ -197,6 +197,7 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 plasma-meta
+plasma-wayland-protocols
 plasma-wayland-session
 postgresql
 postgresql-old-upgrade
