@@ -12,7 +12,7 @@ if [ -d "$HOME/.local/bin" ];
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
-GEM_HOME="$(ruby -e "puts Gem.user_dir")"
-if [ -d "$GEM_HOME/bin" ];
-  then PATH="$GEM_HOME/bin:$PATH"
+if [ -d "$HOME/.npm-global/bin" ];
+  then PATH="$HOME/.npm-global/bin:$PATH"
 fi
+
