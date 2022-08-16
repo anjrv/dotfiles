@@ -18,16 +18,16 @@ nix-env -iA \
 	nixpkgs.btop \
 	nixpkgs.ncdu \
 	nixpkgs.lazygit \
-  nixpkgs.nodejs-16_x \
-  nixpkgs.nodePackages.npm \
-  nixpkgs.rustup \
+	nixpkgs.nodejs-16_x \
+	nixpkgs.nodePackages.npm \
+	nixpkgs.rustup \
 	nixpkgs.shellcheck \
 	nixpkgs.lldb \
 	nixpkgs.sumneko-lua-language-server \
 	nixpkgs.stylua \
-  nixpkgs.rPackages.styler \
-  nixpkgs.black \
-  nixpkgs.nodePackages.prettier \
+	nixpkgs.rPackages.styler \
+	nixpkgs.black \
+	nixpkgs.nodePackages.prettier \
 	nixpkgs.starship
 
 rustup default stable
