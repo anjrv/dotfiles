@@ -30,11 +30,10 @@ cd ~/.local/share/fonts &&
   fc-cache -f -v
 
 cd "$HOME/.config" || exit
-curl -fLo "starship.toml" https://github.com/anjrv/dotfiles/blob/main/.config/starship.toml
 git clone "https://github.com/anjrv/nvim.git" && nvim --headless -c "autocmd User PackerComplete quitall" -c "PackerSync"
 git clone "https://github.com/anjrv/zsh.git"
 
 cd "$HOME" || exit
 ln -s "$HOME/.config/zsh/.zshenv" ".zshenv"
 command -v zsh | sudo tee -a /etc/shells
-chsh -s "$(~/.nix-profile/bin/zsh)"
+chsh -s "$(which zsh)"
