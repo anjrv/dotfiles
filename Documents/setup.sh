@@ -33,7 +33,9 @@ cd ~/.local/share/fonts &&
   fc-cache -f -v
 
 cd "$HOME/.config" || exit
-git clone "https://github.com/anjrv/nvim.git" && nvim --headless -c "autocmd User PackerComplete quitall" -c "PackerSync"
+git clone "https://github.com/anjrv/nvim.git" &&
+  nvim --headless -c "sleep 100" -c "quitall" && # Kick off packer install
+  nvim --headless -c "autocmd User PackerComplete quitall" -c "PackerSync"
 git clone "https://github.com/anjrv/zsh.git"
 
 cd "$HOME" || exit
