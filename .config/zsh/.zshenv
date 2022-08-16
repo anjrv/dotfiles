@@ -1,10 +1,10 @@
-export ZDOTDIR="/home/anjrv/.config/zsh"
+export ZDOTDIR="$HOME/.config/zsh"
 export LANG=en_US.UTF-8
 
-export XDG_CONFIG_HOME="/home/anjrv/.config"
-export XDG_CACHE_HOME="/home/anjrv/.local/cache"
-export XDG_DATA_HOME="/home/anjrv/.local/share"
-export XDG_STATE_HOME="/home/anjrv/.local/state"
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.local/cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
 
 # export TERM=xterm-256color
 export PAGER=less

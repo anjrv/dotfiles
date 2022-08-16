@@ -29,4 +29,8 @@ zsh_add_plugin "zsh-users/zsh-history-substring-search"
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
+if [ -e "$HOME/.nix-profile/etc/profile.d/nix.sh" ]; then
+  . "$HOME/.nix-profile/etc/profile.d/nix.sh"
+fi
+
 eval "$(starship init zsh)"

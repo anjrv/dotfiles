@@ -1,4 +1,5 @@
 cef-minimal-obs-bin
+debtap
 etcher-bin
 game-devices-udev
 google-chrome
@@ -9,9 +10,11 @@ jetbrains-toolbox
 kwin-bismuth-bin
 lib32-mangohud
 mangohud
+nerd-fonts-fira-code
 nerd-fonts-jetbrains-mono
 nohang-git
 nvm
+obs-gstreamer
 obs-studio-tytan652
 obs-vkcapture-git
 parsec-bin
@@ -20,6 +23,7 @@ protonup-qt
 qtscrcpy
 rstudio-desktop-bin
 sddm-git
+showmethekey
 stacer
 thunderbird-bin
 ttf-ms-fonts

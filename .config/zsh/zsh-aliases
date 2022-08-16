@@ -3,6 +3,7 @@ alias mv="mv -i"
 alias rm="rm -i"
 alias df="df -h"
 alias free="free -m"
+alias sd="shutdown -h now"
 
 alias ..="cd .."
 alias ..2="cd ../.."
@@ -22,7 +23,7 @@ alias update="paru && flatpak update"
 alias ytd="youtube-dl"
 alias pg="pgcli --less-chatty"
 alias update-fc="sudo fc-cache -fv"
-alias chrome-unsafe="google-chrome-stable --disable-web-security --user-data-dir="/home/anjrv/Projects/chrome_trash""
+alias chrome-unsafe="google-chrome-stable --disable-web-security --user-data-dir='$HOME/Projects/chrome_trash'"
 alias firmware="sudo systemctl reboot --firmware-setup"
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias npm-fix-conflicts="sudo pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'"
@@ -39,11 +40,10 @@ alias gcm="git commit -m"
 
 #pacman related
 alias mirror="sudo reflector -f 10 -l 300 --threads 300 --sort rate -p https --verbose --save /etc/pacman.d/mirrorlist"
-alias mirrord="sudo reflector --latest 300 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
-alias mirrors="sudo reflector --latest 300 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
-alias mirrora="sudo reflector --latest 300 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector -f 10 -l 300 --threads 300 --sort delay -p https --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector -f 10 -l 300 --threads 300 --sort score -p https --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector -f 10 -l 300 --threads 300 --sort age -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias orphans="pacman -Qdt"
-alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
 alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
 
 #debugging
@@ -67,4 +67,4 @@ alias rsync-hv-local="rsync -avzhe ssh edr@192.168.1.13:"
 
 # This thing is absurdly slow, only source when needed
 alias nvm-init="compinit && source "/usr/share/nvm/init-nvm.sh"" # Doesn't wait for lazy load compinit but requires it
-alias conda-init="source "/home/anjrv/.local/share/anaconda3/conda-setup""
+alias conda-init="source "$HOME/.local/share/anaconda3/conda-setup""
