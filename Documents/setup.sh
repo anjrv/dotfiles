@@ -18,9 +18,6 @@ nix-env -iA \
 	nixpkgs.btop \
 	nixpkgs.ncdu \
 	nixpkgs.lazygit \
-	nixpkgs.nodejs-16_x \
-	nixpkgs.nodePackages.npm \
-	nixpkgs.rustup \
 	nixpkgs.shellcheck \
 	nixpkgs.lldb \
 	nixpkgs.sumneko-lua-language-server \
@@ -29,8 +26,6 @@ nix-env -iA \
 	nixpkgs.black \
 	nixpkgs.nodePackages.prettier \
 	nixpkgs.starship
-
-rustup default stable
 
 sh <(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)
 fc-cache -f -v
