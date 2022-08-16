@@ -22,7 +22,7 @@ nix-env -iA \
 	nixpkgs.lldb \
 	nixpkgs.sumneko-lua-language-server \
 	nixpkgs.stylua \
-  nixpkgs.styler \
+  nixpkgs.rPackages.styler \
   nixpkgs.black \
   nixpkgs.nodePackages.prettier \
 	nixpkgs.starship
@@ -38,5 +38,5 @@ git clone "https://github.com/anjrv/zsh.git"
 
 cd "$HOME" || exit
 ln -s "$HOME/.config/zsh/.zshenv" ".zshenv"
-command -v zsh | sudo tee -a /etc/shells
-chsh -s "$(which zsh)"
+command -v "$HOME/.nix-profile/bin/zsh" | sudo tee -a /etc/shells
+chsh -s "$HOME/.nix-profile/bin/zsh"
