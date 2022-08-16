@@ -18,6 +18,9 @@ nix-env -iA \
 	nixpkgs.btop \
 	nixpkgs.ncdu \
 	nixpkgs.lazygit \
+  nixpkgs.nodejs-16_x \
+  nixpkgs.nodePackages.npm \
+  nixpkgs.rustup \
 	nixpkgs.shellcheck \
 	nixpkgs.lldb \
 	nixpkgs.sumneko-lua-language-server \
@@ -27,14 +30,13 @@ nix-env -iA \
   nixpkgs.nodePackages.prettier \
 	nixpkgs.starship
 
-mkdir -p "$HOME/.local/share/fonts"
-cd ~/.local/share/fonts &&
-  curl -fLo "JetBrains Mono Regular Nerd Font Complete Mono.ttf" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf &&
-  fc-cache -f -v
+rustup default stable
+
+sh <(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)
+fc-cache -f -v
 
 cd "$HOME/.config" || exit
-git clone "https://github.com/anjrv/nvim.git" &&
-  nvim --headless -c "sleep 100" -c "quitall" && # Kick off packer install
+git clone "https://github.com/anjrv/nvim.git" && echo "Setting up neovim, this will take a while..."
   nvim --headless -c "autocmd User PackerComplete quitall" -c "PackerSync"
 git clone "https://github.com/anjrv/zsh.git"
 
