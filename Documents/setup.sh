@@ -22,6 +22,9 @@ nix-env -iA \
 	nixpkgs.lldb \
 	nixpkgs.sumneko-lua-language-server \
 	nixpkgs.stylua \
+  nixpkgs.styler \
+  nixpkgs.black \
+  nixpkgs.nodePackages.prettier \
 	nixpkgs.starship
 
 mkdir -p "$HOME/.local/share/fonts"
