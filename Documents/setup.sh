@@ -26,12 +26,11 @@ nix-env -iA \
 	nixpkgs.nodePackages.prettier \
 	nixpkgs.starship
 
-sh <(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)
-fc-cache -f -v
-
 cd "$HOME/.config" || exit
-git clone "https://github.com/anjrv/nvim.git" && echo "Setting up neovim, this will take a while..."
+git clone "https://github.com/anjrv/nvim.git" &&
+  echo "Setting up neovim, this will take a while..." &&
   nvim --headless -c "autocmd User PackerComplete quitall" -c "PackerSync"
+
 git clone "https://github.com/anjrv/zsh.git"
 
 cd "$HOME" || exit
