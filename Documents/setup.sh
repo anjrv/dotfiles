@@ -22,7 +22,6 @@ nix-env -iA \
 	nixpkgs.lldb \
 	nixpkgs.sumneko-lua-language-server \
 	nixpkgs.stylua \
-	nixpkgs.rPackages.styler \
 	nixpkgs.black \
 	nixpkgs.nodePackages.prettier \
 	nixpkgs.starship
