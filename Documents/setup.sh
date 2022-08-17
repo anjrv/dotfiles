@@ -6,25 +6,33 @@ sh <(curl -L https://nixos.org/nix/install) --no-daemon
 command -v git >/dev/null 2>&1 || nix-env -iA nixpkgs.git
 
 nix-env -iA \
-	nixpkgs.zsh \
-	nixpkgs.neovim \
-	nixpkgs.lsd \
-	nixpkgs.bat \
-	nixpkgs.tree \
-	nixpkgs.jq \
-	nixpkgs.ripgrep \
-	nixpkgs.diff-so-fancy \
-	nixpkgs.fzf \
-	nixpkgs.btop \
-	nixpkgs.ncdu \
-	nixpkgs.lazygit \
-	nixpkgs.shellcheck \
-	nixpkgs.lldb \
-	nixpkgs.sumneko-lua-language-server \
-	nixpkgs.stylua \
-	nixpkgs.black \
-	nixpkgs.nodePackages.prettier \
-	nixpkgs.starship
+  nixpkgs.nodejs \
+  nixpkgs.nodePackages.npm \
+  nixpkgs.go \
+  nixpkgs.jdk \
+  nixpkgs.jdk11 \
+  nixpkgs.rustup \
+  nixpkgs.lua \
+  nixpkgs.zsh \
+  nixpkgs.neovim \
+  nixpkgs.lsd \
+  nixpkgs.bat \
+  nixpkgs.tree \
+  nixpkgs.jq \
+  nixpkgs.ripgrep \
+  nixpkgs.diff-so-fancy \
+  nixpkgs.fzf \
+  nixpkgs.btop \
+  nixpkgs.ncdu \
+  nixpkgs.lazygit \
+  nixpkgs.shellcheck \
+  nixpkgs.sumneko-lua-language-server \
+  nixpkgs.stylua \
+  nixpkgs.black \
+  nixpkgs.nodePackages.prettier \
+  nixpkgs.starship
+
+rustup default stable
 
 cd "$HOME/.config" || exit
 git clone "https://github.com/anjrv/nvim.git" &&
