@@ -45,3 +45,5 @@ cd "$HOME" || exit
 ln -s "$HOME/.config/zsh/.zshenv" ".zshenv"
 command -v "$HOME/.nix-profile/bin/zsh" | sudo tee -a /etc/shells
 chsh -s "$HOME/.nix-profile/bin/zsh"
+
+echo "Done with initial setup, restart session apply changes"
