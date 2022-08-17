@@ -10,7 +10,6 @@ nix-env -iA \
   nixpkgs.nodePackages.npm \
   nixpkgs.go \
   nixpkgs.jdk \
-  nixpkgs.jdk11 \
   nixpkgs.rustup \
   nixpkgs.lua \
   nixpkgs.zsh \
