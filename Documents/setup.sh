@@ -35,8 +35,6 @@ rustup default stable
 
 cd "$HOME/.config" || exit
 git clone "https://github.com/anjrv/nvim.git" &&
-  echo "Setting up neovim, this will take a while..." &&
-  nvim --headless -c "autocmd User PackerComplete quitall" -c "PackerSync" &&
   nvim --headless -c "autocmd User PackerComplete quitall" -c "PackerSync"
 
 git clone "https://github.com/anjrv/zsh.git"
