@@ -104,6 +104,7 @@ jupyter-notebook
 jupyterlab
 jupyterlab-widgets
 kate
+kcalc
 kdeconnect
 kdegraphics-thumbnailers
 kdenlive
@@ -145,7 +146,9 @@ libpulse
 libratbag
 libreoffice-fresh
 libtool
+libudev0-shim
 libva-mesa-driver
+libxcrypt-compat
 linux
 linux-firmware
 linux-headers
@@ -166,6 +169,7 @@ maven
 mesa
 mesa-vdpau
 mlocate
+mokutil
 mold
 mosquitto
 mplayer
@@ -275,12 +279,16 @@ tree
 ttf-iosevka-nerd
 umbrello
 unrar
+valgrind
 vamp-plugin-sdk
 vde2
 vi
 vim
 virt-manager
 virt-viewer
+virtualbox
+virtualbox-guest-iso
+virtualbox-host-dkms
 vulkan-radeon
 wget
 which

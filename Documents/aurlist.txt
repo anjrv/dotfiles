@@ -2,6 +2,7 @@ cef-minimal-obs-bin
 debtap
 etcher-bin
 game-devices-udev
+gconf
 google-chrome
 google-java-format
 goverlay-bin
@@ -20,6 +21,7 @@ obs-vkcapture-git
 parsec-bin
 paru
 protonup-qt
+python2-support
 qtscrcpy
 rstudio-desktop-bin
 sddm-git
@@ -28,5 +30,6 @@ stacer
 thunderbird-bin
 ttf-ms-fonts
 via-bin
+virtualbox-ext-oracle
 visual-studio-code-bin
 vlc-luajit
