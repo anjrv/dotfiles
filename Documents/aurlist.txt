@@ -2,16 +2,13 @@ cef-minimal-obs-bin
 debtap
 etcher-bin
 game-devices-udev
-gconf
 google-chrome
 google-java-format
 goverlay-bin
 inxi
 jetbrains-toolbox
-kwin-bismuth-bin
 lib32-mangohud
 mangohud
-nerd-fonts-fira-code
 nerd-fonts-jetbrains-mono
 nohang-git
 nvm
@@ -21,7 +18,6 @@ obs-vkcapture-git
 parsec-bin
 paru
 protonup-qt
-python2-support
 qtscrcpy
 rstudio-desktop-bin
 sddm-git
@@ -30,6 +26,5 @@ stacer
 thunderbird-bin
 ttf-ms-fonts
 via-bin
-virtualbox-ext-oracle
 visual-studio-code-bin
 vlc-luajit

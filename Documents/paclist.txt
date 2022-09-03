@@ -1,4 +1,5 @@
 adobe-source-sans-fonts
+alacritty
 amf-headers
 android-tools
 ant
@@ -119,14 +120,21 @@ ksysguard
 kvantum
 latte-dock
 lazygit
+lib32-dbus-glib
 lib32-gamemode
 lib32-giflib
 lib32-gnutls
 lib32-gst-plugins-base-libs
+lib32-gtk2
 lib32-gtk3
+lib32-libappindicator-gtk2
+lib32-libdbusmenu-glib
+lib32-libdbusmenu-gtk2
+lib32-libindicator-gtk2
 lib32-libpulse
 lib32-libva
 lib32-libxcomposite
+lib32-libxcrypt-compat
 lib32-libxinerama
 lib32-libxslt
 lib32-mesa
@@ -168,6 +176,7 @@ mariadb-libs
 maven
 mesa
 mesa-vdpau
+micro
 mlocate
 mokutil
 mold
@@ -185,6 +194,7 @@ networkmanager
 ninja
 nm-connection-editor
 nodejs-lts-gallium
+notepadqq
 noto-fonts-emoji
 npm
 nvme-cli
@@ -243,6 +253,7 @@ rust-analyzer
 rustup
 samba
 scrcpy
+screen
 sed
 shellcheck
 smartmontools
@@ -286,9 +297,6 @@ vi
 vim
 virt-manager
 virt-viewer
-virtualbox
-virtualbox-guest-iso
-virtualbox-host-dkms
 vulkan-radeon
 wget
 which
