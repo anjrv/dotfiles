@@ -6,11 +6,6 @@ _k_friendly_name=Activity Manager
 switch-to-activity-9bdfd141-a0a4-4ae3-9d66-0c2477e9fbdc=none,none,Switch to activity "Default"
 switch-to-activity-d962ccf6-7dd8-49f3-96a3-2c6755641e27=none,none,Switch to activity "Default"
 
-[Alacritty.desktop]
-New=Meta+Return,none,New Terminal
-_k_friendly_name=Alacritty
-_launch=none,none,Alacritty
-
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Estonian=none,none,Switch keyboard layout to Estonian
@@ -36,6 +31,10 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
+
+[kitty.desktop]
+_k_friendly_name=kitty
+_launch=Meta+Return,none,kitty
 
 [kmix]
 _k_friendly_name=Audio Volume

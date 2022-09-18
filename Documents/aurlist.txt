@@ -19,6 +19,7 @@ parsec-bin
 paru
 protonup-qt
 qtscrcpy
+rpi-imager-bin
 rstudio-desktop-bin
 sddm-git
 showmethekey
