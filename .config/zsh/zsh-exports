@@ -16,3 +16,7 @@ if [ -d "$HOME/.npm-global/bin" ];
   then PATH="$HOME/.npm-global/bin:$PATH"
 fi
 
+if [ -d "$HOME/.local/share/coursier/bin" ];
+  then PATH="$HOME/.local/share/coursier/bin:$PATH"
+fi
+

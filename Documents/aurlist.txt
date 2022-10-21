@@ -1,4 +1,5 @@
 cef-minimal-obs-bin
+coursier
 debtap
 etcher-bin
 game-devices-udev
@@ -15,12 +16,15 @@ nvm
 obs-gstreamer
 obs-studio-tytan652
 obs-vkcapture-git
+panwriter
 parsec-bin
 paru
 protonup-qt
+python2
 qtscrcpy
 rpi-imager-bin
 rstudio-desktop-bin
+scalafmt
 sddm-git
 showmethekey
 stacer

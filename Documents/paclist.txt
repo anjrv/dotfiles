@@ -97,6 +97,7 @@ java11-openjfx
 jconvolver
 jdk-openjdk
 jdk11-openjdk
+jdk17-openjdk
 jq
 jre-openjdk
 jre11-openjdk
@@ -190,6 +191,7 @@ neofetch
 neovide
 neovim
 net-tools
+nethogs
 networkmanager
 ninja
 nm-connection-editor
@@ -209,6 +211,7 @@ patch
 pavucontrol
 pcsx2
 pdfjs
+pdftk
 perf
 php
 pinta
@@ -234,7 +237,6 @@ python-lsp-server
 python-magic
 python-pip
 python-pyqt5
-python2
 qbittorrent
 qemu-desktop
 qmk
@@ -252,6 +254,9 @@ rsync
 rust-analyzer
 rustup
 samba
+scala
+scala-docs
+scala-sources
 scrcpy
 screen
 sed
@@ -310,7 +315,6 @@ wireless_tools
 wireplumber
 wl-clipboard
 xclip
-xdg-desktop-portal-gtk
 xdg-utils
 xdotool
 xf86-video-amdgpu
