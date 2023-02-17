@@ -44,6 +44,7 @@ alias mirrord="sudo reflector -f 10 -l 300 --threads 300 --sort delay -p https -
 alias mirrors="sudo reflector -f 10 -l 300 --threads 300 --sort score -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector -f 10 -l 300 --threads 300 --sort age -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias orphans="pacman -Qdt"
+alias unused="sudo pacman -Rsunc $(pacman -Qdtq)"
 alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
 
 #debugging
@@ -61,8 +62,8 @@ alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias curr-ip="curl -4 icanhazip.com"
 alias ssh="kitty +kitten ssh"
 alias ssh-krafla="kitty +kitten ssh jaj20@krafla.rhi.hi.is"
-alias ssh-pi-local="kitty +kitten ssh radikamari@192.168.1.6"
-alias ssh-hv-local="kitty +kitten ssh edr@192.168.1.13"
+alias ssh-pi-local="kitty +kitten ssh radikamari@192.168.1.10"
+alias ssh-shelf="kitty +kitten ssh shelf@192.168.1.8"
 alias rsync-hv-local="rsync -avzhe ssh edr@192.168.1.13:"
 
 # This thing is absurdly slow, only source when needed

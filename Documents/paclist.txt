@@ -22,6 +22,7 @@ bison
 blender
 bluez-utils
 boost
+bottom
 bridge-utils
 btop
 ccache
@@ -77,6 +78,7 @@ gperf
 gradle
 grep
 groff
+grpc
 gst-plugin-pipewire
 gst-plugins-ugly
 gstreamer-vaapi
@@ -89,6 +91,7 @@ htop
 imagemagick
 inkscape
 intel-ucode
+inxi
 iptables-nft
 iwd
 jack-example-tools
@@ -150,7 +153,6 @@ lib32-vulkan-icd-loader
 lib32-vulkan-radeon
 libappindicator-gtk3
 libguestfs
-libpipewire02
 libpulse
 libratbag
 libreoffice-fresh
@@ -195,21 +197,20 @@ nethogs
 networkmanager
 ninja
 nm-connection-editor
-nodejs-lts-gallium
+nodejs-lts-hydrogen
 notepadqq
 noto-fonts-emoji
 npm
 nvme-cli
+obsidian
 okular
 openbsd-netcat
 openssh
+openssl-1.1
 openvr
 pacman
-pandoc
-pandoc-crossref
 patch
 pavucontrol
-pcsx2
 pdfjs
 pdftk
 perf
@@ -242,7 +243,6 @@ qemu-desktop
 qmk
 qpwgraph
 qt6-wayland
-qutebrowser
 r
 ranger
 realtime-privileges
@@ -293,6 +293,8 @@ tmux
 trash-cli
 tree
 ttf-iosevka-nerd
+ttf-jetbrains-mono-nerd
+typescript
 umbrello
 unrar
 valgrind
