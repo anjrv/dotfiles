@@ -1,9 +1,9 @@
 HISTFILE=$HOME/.config/zsh/zsh_history
-HISTSIZE=10000
+HISTSIZE=20000
 SAVEHIST=10000
 
 setopt inc_append_history
-setopt autocd extendedglob nomatch menucomplete
+setopt autocd extendedglob nomatch menucomplete histignorealldups
 setopt interactive_comments
 
 unsetopt beep

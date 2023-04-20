@@ -45,7 +45,7 @@ return packer.startup(function(use)
 	use({ "numToStr/Comment.nvim" })
 	use({ "kyazdani42/nvim-web-devicons" })
 	use({ "kyazdani42/nvim-tree.lua" })
-	use({ "akinsho/bufferline.nvim" })
+	use({ "akinsho/bufferline.nvim", requires = "kyazdani42/nvim-web-devicons" })
 	use({ "moll/vim-bbye" })
 	use({ "nvim-lualine/lualine.nvim" })
 	use({ "akinsho/toggleterm.nvim" })
@@ -87,7 +87,7 @@ return packer.startup(function(use)
 	use({
 		"nvim-treesitter/nvim-treesitter",
 	})
-	use({ "p00f/nvim-ts-rainbow" })
+	-- use({ "p00f/nvim-ts-rainbow" })
 
 	-- Git
 	use({ "lewis6991/gitsigns.nvim" })
@@ -104,7 +104,23 @@ return packer.startup(function(use)
 	-- use({ "ellisonleao/glow.nvim" })
 
 	-- Active node version needs to be LTS
-	-- use({ "github/copilot.vim" })
+	use({
+		"zbirenbaum/copilot.lua",
+		event = { "VimEnter" },
+		config = function()
+			vim.defer_fn(function()
+				require("user.copilot")
+			end, 100)
+		end,
+	})
+
+	use({
+		"zbirenbaum/copilot-cmp",
+		after = { "copilot.lua" },
+		config = function()
+			require("copilot_cmp").setup()
+		end,
+	})
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

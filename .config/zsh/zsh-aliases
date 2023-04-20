@@ -28,7 +28,7 @@ alias firmware="sudo systemctl reboot --firmware-setup"
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias npm-fix-conflicts="sudo pacman -S npm --overwrite '/usr/lib/node_modules/npm/*'"
 
-alias kde-reload="kquitapp5 plasmashell && kstart5 plasmashell"
+alias kde-reload="nohup plasmashell --replace &"
 alias kde-fix-icons="kbuildsycoca5 --noincremental"
 
 #git
@@ -45,7 +45,7 @@ alias mirrors="sudo reflector -f 10 -l 300 --threads 300 --sort score -p https -
 alias mirrora="sudo reflector -f 10 -l 300 --threads 300 --sort age -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias orphans="pacman -Qdt"
 alias unused="sudo pacman -Rsunc $(pacman -Qdtq)"
-alias archlinx-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
+alias archlinux-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
 
 #debugging
 alias jctl="journalctl -p 3 -xb"

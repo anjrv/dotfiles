@@ -7,7 +7,7 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 
 # export TERM=xterm-256color
-export PAGER=less
+export PAGER=/usr/bin/moar
 export TERMINAL=kitty
 export TerminalEmulator=kitty
 export BROWSER=/usr/bin/firefox
