@@ -20,3 +20,4 @@ if [ -d "$HOME/.local/share/coursier/bin" ];
   then PATH="$HOME/.local/share/coursier/bin:$PATH"
 fi
 
+export NODE_GYP_FORCE_PYTHON='/usr/bin/python3.10'
