@@ -53,6 +53,7 @@ efibootmgr
 egl-wayland
 electron
 elisa
+emacs-wayland
 extra-cmake-modules
 fakeroot
 fd
@@ -97,6 +98,7 @@ helix
 help2man
 highlight
 htop
+hunspell-en_us
 imagemagick
 inkscape
 intel-ucode
@@ -132,6 +134,7 @@ konsole
 krita
 ksysguard
 kvantum
+kwalletmanager
 lazygit
 lib32-dbus-glib
 lib32-gamemode
@@ -175,6 +178,7 @@ libxcrypt-compat
 linux
 linux-firmware
 linux-headers
+linux-lts
 lld
 lldb
 llvm
@@ -263,6 +267,7 @@ python-lsp-server
 python-magic
 python-opencv
 python-pip
+python-pipx
 python-protobuf
 python-pyqt5
 python-pytest
@@ -285,6 +290,7 @@ rkhunter
 rlwrap
 rocm-opencl-sdk
 rsync
+rust-analyzer
 rustup
 samba
 sbt
@@ -293,6 +299,7 @@ screen
 sddm
 sed
 shellcheck
+shfmt
 smartmontools
 sndio
 spectacle
@@ -303,11 +310,13 @@ starship
 steam
 steam-native-runtime
 stress
+stylelint
 stylua
 sudo
 sweeper
 synfigstudio
 sysstat
+terraform
 texinfo
 texlive-basic
 texlive-bibtexextra
@@ -322,6 +331,7 @@ texlive-music
 texlive-pictures
 texlive-pstricks
 texlive-publishers
+tidy
 tk
 tldr
 tmux
@@ -369,6 +379,7 @@ xorg-server-devel
 xorg-xeyes
 xorg-xhost
 xorg-xinit
+xorg-xlsclients
 xorg-xwininfo
 yarn
 ytfzf

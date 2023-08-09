@@ -1,4 +1,3 @@
-an-anime-game-launcher-bin
 cef-minimal-obs-bin
 coursier
 debtap
@@ -21,7 +20,6 @@ obs-vkcapture-git
 pandoc-bin
 panwriter
 paru
-pcsx2
 protonup-qt-bin
 python2
 python310

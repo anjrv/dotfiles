@@ -42,6 +42,11 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
+(setq auto-save-default t
+      make-backup-files t)
+
+(setq confirm-kill-emacs nil)
+
 (map! :leader
       :n "e" #'treemacs
       :n "l f" #'format-all-buffer)
@@ -49,7 +54,7 @@
 (map! "C-h" #'previous-buffer
       "C-l" #'next-buffer
       "C-q" #'kill-current-buffer
-      "C-\\" #'vterm)
+      "C-\\" #'+vterm/toggle)
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
@@ -83,8 +88,24 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+(setq-default evil-kill-on-visual-paste nil)
+
 (after! centaur-tabs
   (setq centaur-tabs-set-bar 'right))
+
+(defun centaur-tabs-buffer-groups ()
+  (list (cond ((string-equal "*" (substring (buffer-name) 0 1))
+               (cond ((string-equal "eglot" (downcase (substring (buffer-name) 1 6)))
+                      "Eglot")
+                     (t
+                      "Tools")))
+              ((string-equal "magit" (downcase (substring (buffer-name) 0 5)))
+               "Magit")
+              (t
+               "Default")
+              )
+        )
+  )
 
 (use-package! copilot
   :hook (prog-mode . copilot-mode)
