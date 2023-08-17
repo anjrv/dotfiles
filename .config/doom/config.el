@@ -88,7 +88,11 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(setq-default evil-kill-on-visual-paste nil)
+(defun evil-delete-advice (orig-fn beg end &optional type _ &rest args)
+  (apply orig-fn beg end type ?_ args))
+
+(advice-add 'evil-delete :around 'evil-delete-advice)
+(advice-add 'evil-change :around 'evil-delete-advice)
 
 (after! centaur-tabs
   (setq centaur-tabs-set-bar 'right))
