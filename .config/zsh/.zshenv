@@ -14,5 +14,6 @@ export BROWSER=/usr/bin/firefox
 export MOZ_ENABLE_WAYLAND=1
 # export SDL_VIDEODRIVER=wayland
 # export QT_QPA_PLATFORM=wayland
+export KWIN_DRM_NO_AMS=1
 
 export JAVA_HOME=/usr/lib/jvm/default
