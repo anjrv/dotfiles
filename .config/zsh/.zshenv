@@ -16,4 +16,6 @@ export MOZ_ENABLE_WAYLAND=1
 # export QT_QPA_PLATFORM=wayland
 export KWIN_DRM_NO_AMS=1
 
+export VDPAU_DRIVER=radeonsi
+
 export JAVA_HOME=/usr/lib/jvm/default

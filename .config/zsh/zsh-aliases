@@ -44,7 +44,6 @@ alias mirrord="sudo reflector -f 10 -l 300 --threads 300 --sort delay -p https -
 alias mirrors="sudo reflector -f 10 -l 300 --threads 300 --sort score -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias mirrora="sudo reflector -f 10 -l 300 --threads 300 --sort age -p https --verbose --save /etc/pacman.d/mirrorlist"
 alias orphans="pacman -Qdt"
-alias unused="sudo pacman -Rsunc $(pacman -Qdtq)"
 alias archlinux-fix-keys="sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys"
 alias rebuild="checkrebuild | awk '{print $2}' | xargs -r paru -S --rebuild"
 

@@ -34,3 +34,4 @@ if [ -e "$HOME/.nix-profile/etc/profile.d/nix.sh" ]; then
 fi
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
