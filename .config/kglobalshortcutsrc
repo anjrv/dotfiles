@@ -73,6 +73,26 @@ MoveZoomLeft=none,Meta+Ctrl+Left,Move Left
 MoveZoomRight=none,Meta+Ctrl+Right,Move Right
 MoveZoomUp=none,Meta+Ctrl+Up,Move Up
 Overview=Meta+D,Meta+W,Toggle Overview
+PoloniumCycleEngine=Meta+|,none,Polonium: Cycle Engine
+PoloniumFocusAbove=Meta+K,none,Polonium: Focus Above
+PoloniumFocusBelow=Meta+J,none,Polonium: Focus Below
+PoloniumFocusLeft=Meta+H,none,Polonium: Focus Left
+PoloniumFocusRight=Meta+L,none,Polonium: Focus Right
+PoloniumInsertAbove=Meta+Shift+K,none,Polonium: Insert Above
+PoloniumInsertBelow=Meta+Shift+J,none,Polonium: Insert Below
+PoloniumInsertLeft=Meta+Shift+H,none,Polonium: Insert Left
+PoloniumInsertRight=Meta+Shift+L,none,Polonium: Insert Right
+PoloniumOpenSettings=Meta+\\\\,none,Polonium: Open Settings Dialog
+PoloniumResizeAbove=Meta+Ctrl+K,none,Polonium: Resize Above
+PoloniumResizeBelow=Meta+Ctrl+J,none,Polonium: Resize Below
+PoloniumResizeLeft=Meta+Ctrl+H,none,Polonium: Resize Left
+PoloniumResizeRight=Meta+Ctrl+L,none,Polonium: Resize Right
+PoloniumRetileWindow=Meta+Shift+Space,none,Polonium: Retile Window
+PoloniumSwitchBTree=none,none,Polonium: Use Binary Tree Engine
+PoloniumSwitchHalf=none,none,Polonium: Use Half Engine
+PoloniumSwitchKwin=none,none,Polonium: Use KWin Engine
+PoloniumSwitchMonocle=none,none,Polonium: Use Monocle Engine
+PoloniumSwitchThreeColumn=none,none,Polonium: Use Three Column Engine
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=none,Meta+D,Peek at Desktop
 ShowDesktopGrid=none,Meta+F8,Show Desktop Grid
@@ -264,7 +284,7 @@ cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,none,Edit Contents…
 manage activities=none,Meta+Q,Show Activity Switcher
 next activity=Meta+A,none,Walk through activities
-previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
+previous activity=none,none,Walk through activities (Reverse)
 repeat_action=none,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…
@@ -279,6 +299,13 @@ _launch=Meta+Return
 
 [services][org.kde.krunner.desktop]
 _launch=Meta+Space\tAlt+Space\tAlt+F2\tSearch
+
+[services][org.kde.spectacle.desktop]
+ActiveWindowScreenShot=Meta+Shift+C\tMeta+Print
+CurrentMonitorScreenShot=Meta+Shift+A
+FullScreenScreenShot=none
+RectangularRegionScreenShot=Meta+Shift+X
+WindowUnderCursorScreenShot=none
 
 [yakuake]
 _k_friendly_name=Yakuake
