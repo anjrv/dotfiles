@@ -211,7 +211,7 @@ config.font_size = 14.0
 config.launch_menu = launch_menu
 config.default_cursor_style = "BlinkingBar"
 config.disable_default_key_bindings = true
-config.fancy_tab_bar = true
+config.use_fancy_tab_bar = true
 config.window_frame = {
 	font = wezterm.font({ family = "JetBrainsMono", weight = "Bold" }),
 	font_size = 12.0,

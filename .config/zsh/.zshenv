@@ -19,3 +19,5 @@ export KWIN_DRM_NO_AMS=1
 export VDPAU_DRIVER=radeonsi
 
 export JAVA_HOME=/usr/lib/jvm/default
+
+export WAYLANDDRV_PRIMARY_MONITOR="DP-1"
